@@ -1,0 +1,14 @@
+.Container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 100px;
+    grid-gap: 30px;
+}
+.items{
+    background-color: azure;
+    border: 2px solid green;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 50px;
+}
+
