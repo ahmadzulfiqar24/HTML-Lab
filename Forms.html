@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="External.css">
+	<title>Form</title>
+	<style>
+
+		div{
+			background-color: bisque;
+			width: 200px;
+			height: 400px;
+			border: solid green;
+			font-size: 20px;
+		}
+	</style>
+	
+</head>
+<body style="background-color: powderblue;">
+
+
+	<fieldset  style="text-align: center;">
+
+		<p>This is a website</p>
+
+	    <form method="" action="">
+	    <label style="font-size: 30px; color: brown;">Gender</label></br>
+	    <input type="Radio" name="gender"> Male </br>
+	    <input type="Radio" name="gender"> Female </br></br>
+	    <label style="font-size: 30px; color: brown;">Course</label></br>
+	    <input type="Checkbox" value="HTMl"> HTML <input type="Checkbox" value="PHP"> PHP
+	    <input type="Checkbox" value="JS"> JS <input type="Checkbox" value="C++"> C++ 
+	</br></br>
+
+	<marquee>Html are Used</marquee>
+
+	<div>
+		
+		<label>Name</label></br>
+		<input type="text" pattern="[a-zA-Z ]{3,30}" placeholder="Enter The Name" name="uname"></br></br>
+
+		<label>Email</label></br>
+		<input type="email" placeholder="Enter The Email" name="uemail"></br></br>
+
+		<label>Phone No.</label></br>
+		<input type="tel" pattern="[0-9]{10}" title="Entr The Valid Phone No. With 10 Digit" placeholder="Enter The Phone No." name="uphone"></br></br>
+
+		<label>Message</label></br>
+		<textarea></textarea></br>
+
+		<label>Photo</label></br>
+		<input type="file"></br></br>
+
+		<label>Password</label></br>
+		<input type="Password"></br>
+		</div>
+
+
+		<label>Country</label></br>
+		<select>
+			<option>Select Country</option>
+			<option value="pakistan"> Pakistan</option>
+			<option value="usa"> USA</option>
+			<option value="uk"> UK</option>
+			<option value="dubai"> Dubai</option>
+		</select></br></br>
+
+		<label>Course</label></br>
+
+		<select>
+			<option>Select Course</option>
+			<optgroup label="Frontend">
+				<option>HTML</option>
+				<option>CSS</option>
+				<option>JS</option>
+			</optgroup>
+
+			<optgroup label="Backend">
+				<option>PHP</option>
+				<option>NODE</option>
+				<option>MYSQL</option>
+			</optgroup>
+		</select></br></br>
+		
+		<button style="color: maroon;" type="Submit">Save</button>
+		<input style="color: maroon;" type="Submit" value="Go">
+	</form>
+	</fieldset>
+
+</body>
+</html>
